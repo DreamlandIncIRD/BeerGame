@@ -13,10 +13,6 @@ This repository contains the complete materials for the paper *"Discrete vs. Con
   - `BeerGame with limits.ssd`
   - `BeerGame without limits.ssd`	
 
-- Excel workbook with calculations and parameter variation (`.xlsx`)
-  - `BeerGame.xlsx`
-
-
 ## Abstract
 This paper compares two models of the Beer Game — one implemented in Excel and the other in StochSD — to examine the impact of order discreteness on the bullwhip effect. It is shown that introducing minimum order quantities amplifies order fluctuations. The StochSD model does not accumulate orders, which smooths the dynamics, whereas Excel allows explicit control over the computation sequence and accounts for unfilled orders, yielding more realistic outcomes. The conclusion suggests that spreadsheets are preferable to classical system dynamics environments for modeling supply chains with discrete lot sizes.
 
